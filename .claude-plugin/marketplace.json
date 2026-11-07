@@ -1,0 +1,13 @@
+{
+  "name": "workswith",
+  "owner": { "name": "workswith.ai", "url": "https://workswith.ai" },
+  "description": "Claude plugins from workswith.ai.",
+  "plugins": [
+    {
+      "name": "workswith",
+      "source": "./",
+      "description": "Your organisation's workswith.ai Ontology in Claude, signed in with OAuth.",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "workswith": {
+      "type": "http",
+      "url": "https://${user_config.org}.workswith.ai/mcp"
+    }
+  }
+}
