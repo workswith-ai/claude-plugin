@@ -7,21 +7,21 @@ Processes, and the Actions you may invoke. It adds one MCP server, `https://<org
 
 ```
 /plugin marketplace add workswith-ai/claude-plugin
-/plugin install workswith@workswith
+/plugin install work@workswith.ai
 ```
 
 Claude Code asks for your **organisation key** when the plugin is enabled: the first part of your org's
 address, `acme` for `https://acme.workswith.ai`. From a shell, give it at install:
 
 ```
-claude plugin install workswith@workswith --config org=acme
+claude plugin install work@workswith.ai --config org=acme
 ```
 
-Then run `/mcp`, choose **workswith** and sign in. Your browser opens workswith.ai, where you sign in as
+Then run `/mcp`, choose **work** and sign in. Your browser opens workswith.ai, where you sign in as
 usual and choose what Claude may do: *read*, *act*, and *build*. You need the *Connect apps* permission
 in the org. Revoke the connection at any time under Desk › Connected apps.
 
-To change the org later: `/plugin` › Installed › workswith › Configure options, then restart Claude Code.
+To change the org later: `/plugin` › Installed › workswith.ai › Configure options, then restart Claude Code.
 
 ## How sign-in works
 
