@@ -1,14 +1,14 @@
 {
-  "name": "workswith",
+  "name": "workswith.ai",
   "displayName": "workswith.ai",
-  "version": "0.1.0",
-  "description": "Your organisation's workswith.ai Ontology in Claude: read its Types, Records and Processes, and invoke the Actions you may take. Signs in with OAuth.",
+  "version": "0.1.1",
+  "description": "Connect with your organization through workswith.ai.",
   "author": { "name": "workswith.ai", "url": "https://workswith.ai" },
   "homepage": "https://workswith.ai",
   "repository": "https://github.com/workswith-ai/claude-plugin",
   "license": "MIT",
   "privacyPolicyUrl": "https://workswith.ai/privacy",
-  "keywords": ["workswith", "ontology", "records", "processes", "actions", "mcp"],
+  "keywords": ["workswith", "workswith.ai"],
   "icon": "./logo.svg",
   "userConfig": {
     "org": {
