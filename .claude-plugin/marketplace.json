@@ -1,10 +1,10 @@
 {
-  "name": "workswith.ai",
+  "name": "workswith-ai",
   "owner": { "name": "workswith.ai", "url": "https://workswith.ai" },
   "description": "Claude plugins from workswith.ai.",
   "plugins": [
     {
-      "name": "work",
+      "name": "workswith-ai",
       "source": "./",
       "description": "Connect with your organization through workswith.ai.",
       "category": "productivity"

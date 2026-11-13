@@ -1,23 +1,23 @@
 # workswith.ai for Claude
 
-A Claude Code plugin that connects Claude to your organisation on workswith.ai: its Types, Records and
+A Claude Code plugin that connects Claude to your organization on workswith.ai: its Types, Records and
 Processes, and the Actions you may invoke. It adds one MCP server, `https://<org>.workswith.ai/mcp`.
 
 ## Install
 
 ```
 /plugin marketplace add workswith-ai/claude-plugin
-/plugin install work@workswith.ai
+/plugin install workswith-ai@workswith-ai
 ```
 
-Claude Code asks for your **organisation key** when the plugin is enabled: the first part of your org's
+Claude Code asks for your **organization key** when the plugin is enabled: the first part of your org's
 address, `acme` for `https://acme.workswith.ai`. From a shell, give it at install:
 
 ```
-claude plugin install work@workswith.ai --config org=acme
+claude plugin install workswith-ai@workswith-ai --config org=acme
 ```
 
-Then run `/mcp`, choose **work** and sign in. Your browser opens workswith.ai, where you sign in as
+Then run `/mcp`, choose **plugin:workswith-ai:ww** and sign in. Your browser opens workswith.ai, where you sign in as
 usual and choose what Claude may do: *read*, *act*, and *build*. You need the *Connect apps* permission
 in the org. Revoke the connection at any time under Desk › Connected apps.
 

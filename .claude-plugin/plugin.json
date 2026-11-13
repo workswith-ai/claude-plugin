@@ -1,7 +1,7 @@
 {
-  "name": "workswith.ai",
+  "name": "workswith-ai",
   "displayName": "workswith.ai",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Connect with your organization through workswith.ai.",
   "author": { "name": "workswith.ai", "url": "https://workswith.ai" },
   "homepage": "https://workswith.ai",
@@ -10,10 +10,16 @@
   "privacyPolicyUrl": "https://workswith.ai/privacy",
   "keywords": ["workswith", "workswith.ai"],
   "icon": "./logo.svg",
+  "mcpServers": {
+    "ww": {
+      "type": "http",
+      "url": "https://${user_config.org}.workswith.ai/mcp"
+    }
+  },
   "userConfig": {
     "org": {
       "type": "string",
-      "title": "Organisation key",
+      "title": "Organization key",
       "description": "Your org's key on workswith.ai: the first part of its address, acme for https://acme.workswith.ai. Lower-case letters and digits, starting with a letter.",
       "required": true
     }
