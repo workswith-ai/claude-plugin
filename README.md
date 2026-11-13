@@ -17,7 +17,7 @@ address, `acme` for `https://acme.workswith.ai`. From a shell, give it at instal
 claude plugin install workswith-ai@workswith-ai --config org=acme
 ```
 
-Then run `/mcp`, choose **plugin:workswith-ai:ww** and sign in. Your browser opens workswith.ai, where you sign in as
+Then run `/mcp`, choose **plugin:workswith-ai:workswith-ai** and sign in. Your browser opens workswith.ai, where you sign in as
 usual and choose what Claude may do: *read*, *act*, and *build*. You need the *Connect apps* permission
 in the org. Revoke the connection at any time under Desk › Connected apps.
 

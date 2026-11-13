@@ -1,7 +1,7 @@
 {
   "name": "workswith-ai",
   "displayName": "workswith.ai",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Connect with your organization through workswith.ai.",
   "author": { "name": "workswith.ai", "url": "https://workswith.ai" },
   "homepage": "https://workswith.ai",
@@ -11,7 +11,7 @@
   "keywords": ["workswith", "workswith.ai"],
   "icon": "./logo.svg",
   "mcpServers": {
-    "ww": {
+    "workswith-ai": {
       "type": "http",
       "url": "https://${user_config.org}.workswith.ai/mcp"
     }
