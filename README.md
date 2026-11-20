@@ -18,7 +18,9 @@ claude plugin install workswith-ai@workswith-ai --config org=acme
 ```
 
 Then run `/mcp`, choose **plugin:workswith-ai:workswith-ai** and sign in. Your browser opens workswith.ai, where you sign in as
-usual and choose what Claude may do: *read*, *act*, and *build*. You need the *Connect apps* permission
+usual and choose what Claude may do: *Read*, *Act*, *Build* and *Agents*. Tick **Act** and **Agents**
+together: that lets Claude hand work to workswith.ai's system agent (apps, Ontology changes, connections,
+automations), which the plugin's skill relies on. You need the *Connect apps* permission
 in the org. Revoke the connection at any time under Desk › Connected apps.
 
 To change the org later: `/plugin` › Installed › workswith.ai › Configure options, then restart Claude Code.
