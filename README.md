@@ -1,7 +1,7 @@
 # workswith.ai for Claude
 
 A Claude Code plugin that connects Claude to your organization on workswith.ai: its Types, Records and
-Processes, and the Actions you may invoke. It adds one MCP server, `https://<org>.workswith.ai/mcp`.
+Processes, and the Actions you may invoke. It adds one MCP server, `https://auth.workswith.ai/mcp`.
 
 ## Install
 
@@ -10,20 +10,13 @@ Processes, and the Actions you may invoke. It adds one MCP server, `https://<org
 /plugin install workswith-ai@workswith-ai
 ```
 
-Claude Code asks for your **organization key** when the plugin is enabled: the first part of your org's
-address, `acme` for `https://acme.workswith.ai`. From a shell, give it at install:
-
-```
-claude plugin install workswith-ai@workswith-ai --config org=acme
-```
-
 Then run `/mcp`, choose **plugin:workswith-ai:workswith-ai** and sign in. Your browser opens workswith.ai, where you sign in as
-usual and choose what Claude may do: *Read*, *Act*, *Build* and *Agents*. Tick **Act** and **Agents**
+usual, check the organization it names (**Use another org** picks a different one), and choose what Claude may do: *Read*, *Act*, *Build* and *Agents*. Tick **Act** and **Agents**
 together: that lets Claude hand work to workswith.ai's system agent (apps, Ontology changes, connections,
 automations), which the plugin's skill relies on. You need the *Connect apps* permission
 in the org. Revoke the connection at any time under Desk › Connected apps.
 
-To change the org later: `/plugin` › Installed › workswith.ai › Configure options, then restart Claude Code.
+To connect another organization later, revoke the connection and sign in again from `/mcp`.
 
 ## How sign-in works
 
