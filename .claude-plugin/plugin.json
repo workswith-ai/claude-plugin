@@ -1,7 +1,7 @@
 {
   "name": "workswith-ai",
   "displayName": "workswith.ai",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Connect with your organization through workswith.ai.",
   "author": { "name": "workswith.ai", "url": "https://workswith.ai" },
   "homepage": "https://workswith.ai",
@@ -14,14 +14,6 @@
     "workswith-ai": {
       "type": "http",
       "url": "https://auth.workswith.ai/mcp"
-    }
-  },
-  "userConfig": {
-    "org": {
-      "type": "string",
-      "title": "Organization key",
-      "description": "Your org's key on workswith.ai: the first part of its address, acme for https://acme.workswith.ai. Lower-case letters and digits, starting with a letter.",
-      "required": true
     }
   }
 }
