@@ -25,6 +25,13 @@ in the org. Revoke the connection at any time under Desk › Connected apps.
 
 To change the org later: `/plugin` › Installed › workswith.ai › Configure options, then restart Claude Code.
 
+## Skills
+
+- **workswith-ai**: working in your org through the MCP server, and handing work to its system agent.
+- **migrate-app**: moving an existing app (Lovable, Vercel, Netlify, or a local project) onto workswith.ai.
+  It assesses the app, maps its backend onto Types, Actions, Workflows and connections, and converts it to a
+  repository app built with git and the workswith CLI.
+
 ## How sign-in works
 
 The plugin names only the MCP address. Claude Code reads that host's protected-resource metadata, which

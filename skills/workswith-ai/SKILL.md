@@ -21,6 +21,8 @@ has set up:
 - **The MCP server is the only way in.** Its tools may be deferred, so search for `workswith-ai`
   before deciding a tool doesn't exist. Never open a browser, guess an org URL, or ask the person for
   one.
+  The one exception is building an app's code, which uses git and the workswith CLI: see the
+  `migrate-app` skill, and the org's own `workswith-apps` skill.
 - **Discover, don't assume.** Read Types, Fields, option values and Actions from the server every
   time, and map the person's words onto them. Ask when the mapping is ambiguous.
 - **Copy identifiers from results.** Some tools take a key and others a ref (`workswith:<kind>/<id>`).
